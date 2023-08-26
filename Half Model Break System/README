@@ -1,0 +1,4 @@
+This is a basic brake simulation in a half vehicle model. 
+
+The vehicle model is based in power flow theory and the brake is based on the book
+Brake Design and Safety - Rudolf Limpert.
