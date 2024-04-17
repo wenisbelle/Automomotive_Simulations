@@ -7,7 +7,7 @@
   dynamics. The following figure represents
   how the model is build.
 
-  ![Half Vehicle](images/HalfVehicle.png)
+  ![HalfVehicle](images/HalfVehicle.png)
 
   
   ## How to Run 🚀  
@@ -22,7 +22,7 @@
   Simulink file and that's it, you will have the system
   like in the image below.
 
-   ![Simulink half model](images/simulink_half_vehicle.png)
+   ![Simulink_half_model](images/simulink_half_vehicle.png)
  
 
   When you run the model it needs to stabilize,
