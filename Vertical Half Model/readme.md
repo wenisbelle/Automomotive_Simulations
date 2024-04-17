@@ -7,7 +7,7 @@
   dynamics. The following figure represents
   how the model is build.
 
-  ![Dynamic model]("Vertical Half Model/images/Half Vehicle.png")
+  ![Half Vehicle](Vertical%20Half%20Model/images/Half%20Vehicle.png)
 
   
   ## How to Run 🚀  
@@ -44,6 +44,6 @@
   Here you can see the results  in the pitch and the vertical linear responses respectively
   when the vehicle cross this bump in road.
 
-    ![Pitch]("Vertical Half Model/images/pitch.jpg")
+  ![Pitch]("Vertical Half Model/images/pitch.jpg")
 
-    ![vertical velocity]("Vertical Half Model/images/linear_velocity.jpg")
+  ![vertical velocity]("Vertical Half Model/images/linear_velocity.jpg")
