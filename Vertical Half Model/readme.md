@@ -44,6 +44,6 @@
   Here you can see the results  in the pitch and the vertical linear responses respectively
   when the vehicle cross this bump in road.
 
-    ![Pitch](images/Half Vehicle.png)
+    ![Pitch](images/pitch.jpg)
 
-    ![vertical velocity](images/Half Vehicle.png)
+    ![vertical velocity](images/linear_velocity.jpg)
