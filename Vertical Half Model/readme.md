@@ -7,7 +7,7 @@
   dynamics. The following figure represents
   how the model is build.
 
-  ![Dynamic model](Vertical Half Model/images/Half Vehicle.png)
+  ![Dynamic model]("Vertical Half Model/images/Half Vehicle.png")
 
   
   ## How to Run 🚀  
@@ -22,7 +22,7 @@
   Simulink file and that's it, you will have the system
   like in the image below.
 
-   ![Simulink half model](Vertical Half Model/images/Half Vehicle.png)
+   ![Simulink half model]("Vertical Half Model/images/Half Vehicle.png")
  
 
   When you run the model it needs to stabilize,
@@ -44,6 +44,6 @@
   Here you can see the results  in the pitch and the vertical linear responses respectively
   when the vehicle cross this bump in road.
 
-    ![Pitch](Vertical Half Model/images/pitch.jpg)
+    ![Pitch]("Vertical Half Model/images/pitch.jpg")
 
-    ![vertical velocity](Vertical Half Model/images/linear_velocity.jpg)
+    ![vertical velocity]("Vertical Half Model/images/linear_velocity.jpg")
