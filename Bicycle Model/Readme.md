@@ -1,4 +1,6 @@
 
+  # Bicycle Model 📝
+
   This is a simulation of a half vehicle,
   using the bicycle model to analyse the lateral dynamics of the
   vehicle, assuming that the vehicle's left and right
