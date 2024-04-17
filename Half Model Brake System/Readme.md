@@ -7,6 +7,9 @@
 
   ![HalfVehicle](https://github.com/wenisbelle/Automomotive_Simulations/blob/master/Images/HalfVehicle.png)
 
+  The theory behind this simulation can be found in: Brake Design and Safety - Rudolf Limpert - 2ed
+
+
 
   ## How to Run 🚀  
   To get started, run the *varglobal* script, this
