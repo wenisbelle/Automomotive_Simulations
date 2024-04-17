@@ -7,7 +7,7 @@
   dynamics. The following figure represents
   how the model is build.
 
-  ![HalfVehicle](images/HalfVehicle.png)
+  ![HalfVehicle](https://github.com/wenisbelle/Automomotive_Simulations/blob/master/Images/HalfVehicle.png)
 
   
   ## How to Run 🚀  
