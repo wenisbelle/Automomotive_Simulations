@@ -22,7 +22,7 @@
   Simulink file and that's it, you will have the system
   like in the image below.
 
-   ![Simulink_half_model](images/simulink_half_vehicle.png)
+   ![Simulink_half_model](https://github.com/wenisbelle/Automomotive_Simulations/blob/master/Images/simulink_half_vehicle.png)
  
 
   When you run the model it needs to stabilize,
@@ -44,6 +44,6 @@
   Here you can see the results  in the pitch and the vertical linear responses respectively
   when the vehicle cross this bump in road.
 
-  ![Pitch](images/pitch.jp")
+  ![Pitch](https://github.com/wenisbelle/Automomotive_Simulations/blob/master/Images/pitch.jpg)
 
-  ![vertical velocity](images/linear_velocity.jpg)
+  ![vertical velocity](https://github.com/wenisbelle/Automomotive_Simulations/blob/master/Images/linear_velocity.jpg)
