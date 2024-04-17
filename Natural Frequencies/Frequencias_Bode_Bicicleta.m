@@ -1,42 +1,37 @@
 %% Primeiramente se deve fornecer as constantes do problema
 
-m=777; %Massa do chassi
-Iy=1475; %Momento de inércia no eixo y
-m1=43.28; %massa da roda frontal
-m2=45.80; %Massa da roda da retaguarda
-a1=0.42*2.85; %Distância entre o cg e o eixo frontal
-a2=2.85-a1; %Distância entre o cg e o eixo da retaguarda
-k1=24700; %Constante elástica da mola dianteira
-k2=32800; %Contante elástica da mola traseira
-kp=198000;
-c1=2000;
-c2=2000;
-% Iy=0.6*m*a1*a2;
+m=777; %Chassis mass
+Iy=1475; % YY Inertia
+m1=43.28; %front wheel mass
+m2=45.80; % rear wheel mass
+a1=0.42*2.85; %Distance from the GC to the front
+a2=2.85-a1; % Distance from the GC to the rear
+k1=24700; %Front spring elastic constant
+k2=32800; %Rear spring elastic constant
+kp=198000; % Tire elastic constant
+c1=2000; % Damper constant
+c2=2000; % Damper constant
 
-%% Matrizes relevantes ao problema
-%Matriz de massa
+%% 
+%Mass matrix
 M=[m 0 0 0;0 Iy 0 0;0 0 m1 0;0 0 0 m2];
 
-%Matriz de amortecimento
+%Damping matrix
 c=[c1+c2 a2*c1-a1-c1 -c1 -c2;a2*c2-a1*c1 c1*a1^2++c2*a2^2 a1*c1 -a2*c2;-c1 a1*c1 c1 0;-c2 -a2*c2 0 c2];
 
-%Matriz de regidez
+%Elastic matrix
 K=[k1+k2 a2*k2-a1*k1 -k1 -k2;a2*k2-a1*k1 k1*a1^2+k2*a2^2 a1*k1 -a2*k2;-k1 a1*k1 k1+kp 0;-k2 -a2*k2 0 k2+kp];
 
-%% Cálculo dos autovetores e autovalores
+%% Highvectors and highvalues
 G =(M^-1)*K;
 [V,H]= eig(G);% V = autovertor; H = autovalores
 f=[sqrt(H(1,1));sqrt(H(2,2));sqrt(H(3,3));sqrt(H(4,4))]/(2*pi);
 
-%% Matrizes do espaço de estados para o diagrama de Bode
+%% Matrix for bode's diagram
 
-% Matriz de estado
-% Matriz de entrada
 A = [-(inv(M))*c    -(inv(M))*K;
        eye(4)          zeros(4)];
-% Matriz de saida
 B = [(inv(M))*[zeros(2);kp 0;0 kp];zeros(2);zeros(2)];
-% Matriz de transmissão direta
 C = [zeros(4)   eye(4)];
 D = [zeros(2);zeros(2)];
 
