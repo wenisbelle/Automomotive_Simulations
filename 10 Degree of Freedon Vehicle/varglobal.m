@@ -15,16 +15,16 @@ Ixx=638.6;
 Izz=3865.9;
 C2=3200;
 vp=0.4064;
-% Kf=38600;%valor tirado do gabriel
-% Kr=49400;%valor tirado do gabriel
-Kp=200000; %constante elástica do pneu
-Ka=3*10^7; %constante elástica do aro da roda
+Kp=200000; %constante elsstica do pneu
+Ka=3*10^7; %constante elastica do aro da roda
 Vcarro=4.5/3.6;
 deltar=0.1;
 KR=20000;
 mrfrontal=60;
 mrretaguarda=75;
 
+
+% Tire Lateral Dynamics
 gama=0;
 c0=1.3;
 c1=2.11730205091124;
